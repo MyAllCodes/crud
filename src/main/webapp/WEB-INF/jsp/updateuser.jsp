@@ -47,9 +47,9 @@
 								path="username" placeholder="Enter User Name" required="required">
 						</div>
 						<div class="form-group" style="display: none">
-							<label for="updatepassword">Password</label> <input
-								type="password" class="form-control" id="updatepassword"
-								name="password" path="password" placeholder="Enter password" required="required">
+							<label for="updatepassword">Password</label> <input type="password"
+								class="form-control" id="updatepassword" name="password"
+								path="password" placeholder="Enter password" required="required">
 						</div>
 						<div class="form-group">
 							<label for="updaterole">Role</label> <select id="updaterole"

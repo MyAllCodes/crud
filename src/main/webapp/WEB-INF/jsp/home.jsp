@@ -14,13 +14,14 @@
 	<jsp:include page="adduser.jsp" />
 	<jsp:include page="updateuser.jsp" />
 	<script>
-	function setModelAttribute(id,email, mobile,
+	function setModelAttribute(id,password,email, mobile,
 			username, roles) {
 		console.log("update:"+roles);
 		$('#updateemail').val(email);
 		$('#updatemobile').val(mobile);
 		$('#updateusername').val(username);
 		$('#updateid').val(id);
+		$('#updatepassword').val(password);
 		$('#updaterole').val(roles);
 	}
 	function confirmdelete() {

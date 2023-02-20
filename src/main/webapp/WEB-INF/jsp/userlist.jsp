@@ -29,7 +29,7 @@
 							<c:if
 								test="${ROLE_USER eq 'ROLE_ADMIN' || ROLE_USER eq 'ROLE_MANAGER'}">
 								<a data-toggle="modal" data-target="#myModal1"
-									onclick="setModelAttribute('${user.id}','${user.email}','${user.mobile}','${user.username}','${user.roles}')"><i
+									onclick="setModelAttribute('${user.id}','${user.password}','${user.email}','${user.mobile}','${user.username}','${user.roles}')"><i
 									class="fa fa-edit text-primary"
 									style="font-size: 36px; cursor: pointer"></i></a>
 								<c:if test="${ROLE_USER eq 'ROLE_ADMIN'}">
